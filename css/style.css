@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Indie+Flower|Permanent+Marker|Satisfy|Abel|EB+Garamond|Exo+2|Rokkitt|Shadows+Into+Light&display=swap');
+/*
+
+font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Rokkitt', serif;
+
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	transition: 0.8s;
+}
+.navbar {
+	background-image: linear-gradient(to right, #999 0%, #fff 100%);
+	padding: 0 !important;
+
+}
+.navbar-brand img{
+	height: 50px;
+	padding-left: 50px;
+
+}
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+.navbar-nav li a{
+	color: #111 !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Exo 2', sans-serif;
+}
+.fa-bars
+{
+	color: #111;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+
+/* ----------------- BANNER ----- ------ */
+
+#banner{
+	background-image: linear-gradient(to right, #999 0%, #fff 100%);
+	color: #111;
+	padding-top: 5%;
+}
+.tag{
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 100px;
+	font-family: 'Shadows Into Light', cursive;
+}
+.para1{
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+.img-fluid{
+	height: 400px;
+}
+
+/* -----------------------------About us --------------------*/
+#about{
+	padding: 20vmin 0;
+}
+.row .col-md-6 .pray img{
+	opacity: 0.8;
+	width: 80%;
+	height: 600px;
+	border-radius: 0.2vmin;
+}
+
+.row .col-md-6:last-child{
+	position: relative;
+}
+.row .col-md-6 .panel h1{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 500;
+}
+.row .col-md-6 .panel{
+	position: absolute;
+	top: 7vmin;
+	left: -18vmin;
+	background: white;
+	border-radius: 3px;
+	text-align: left;
+	padding: 15vmin 5vmin 15vmin 10vmin;
+	box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-family: 'Rokkitt', serif;
+    color: #343a40;
+	
+}
+@media only screen and (max-width: 767px){
+	.row .col-md-6 .panel {
+		position: initial;
+		width: initial;
+		height: initial;
+	}
+}
+
+#about1{
+	background-color: #fff;
+}
+.container h1{
+	font-size: 60px;
+	font-weight: 400;
+	padding-top: 80px;
+	font-family: 'EB Garamond', serif;
+
+
+}
+ 
+ .partner{
+ 	padding: 35px 15px;
+ }
+
+.card {
+	width: 22rem;
+	margin-top: 35px;
+	height: auto;
+}
+.card .card-title{
+	font-family: 'EB Garamond', serif;
+
+}
+.card .card-text{
+	padding: 0.5em;
+	font-size: 14px;
+	font-family: 'Abel', sans-serif;
+}
+.card-body > a {
+	font-size: 1.5em;
+}
+.carosuel-item{
+	padding-left: 3rem;
+}
+.border-r{
+	border-radius: 340px;
+	width: 100%;
+}
+.text-secondary{
+	font-family: 'Exo 2', sans-serif;
+}
+
+/* ----------------------------- Gadgets --------------------*/
+
+#gadgets{
+	background-color: #111;
+	color: #fff;
+}
+
+#gadgets p{
+	text-align: center;
+}
+.one {
+	margin-top: 40px;
+	height: 400px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0 2px 120px rgba(255,255,255,0.6));
+
+
+}
+.two {
+	margin-top: 80px;
+	height: 300px;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0 2px 120px rgba(255,255,255,0.6));
+
+
+}
+.three {
+	margin-top: 80px;
+	height: 500px;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0 2px 120px rgba(255,255,255,0.6));
+}
+.h1{
+    font-family: 'EB Garamond', serif;
+
+}
+.h2{
+    font-family: 'EB Garamond', serif;
+    margin-top: 60px;
+}
+.para2{
+	font-family: 'Abel', sans-serif;
+}
+@media only screen and (max-width: 767px){
+	.one{
+		height: auto;
+		width: auto;
+	}
+	.three{
+		height: 100% auto;
+		width: auto;
+	}
+} 
+
+
+/*------------------  Blog  ------------------------*/
+
+#blog{
+	background-color: #ffffff;
+	background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.blog1 {
+	border-left: 4px solid #111;
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+.blog1 img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.para4{
+	display: inline-block;
+	font-size: 14px;
+}
+.para5 {
+	margin-top: 15px;
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+}
+
+#blog .text-secondary{
+	font-size: 12px;
+}
+
+/*.................  About  ...............*/
+
+#contact{
+	background-color: #d5fefd;
+	background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+}
+
+.col-md-7 {
+	margin-top: 80px;
+	box-shadow: -1px 5px 60px 1px #999;
+	background-image: linear-gradient(315deg, #fffcff 0%, #d5fefd 74%);
+	margin-bottom: 80px;
+}
+.label{
+	font-weight: normal;
+	margin-top: 15px;
+	color: #000;
+	font-size: 18px;
+}
+.form-control{
+	background: transparent;
+	border-radius: 1px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #6c757d;
+	margin-top: 15px;
+}
+.btn-info{
+	margin-top: 20px;
+	font-size: 18px;
+	width: 120px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+/*........................  footer  ...................*/
+
+#footer{
+	background-color: #d5fefd;
+	background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+}
+.footer-box {
+	padding: 20px;
+	margin-top: 60px;
+}
+.footer-box img{
+	width: 120px;
+	margin-bottom: 20px;
+}
+.social-icon .fa{
+	margin-right: 8px;
+	font-size: 18px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 50%;
+	background: #d5fefd;
+}
+.footer-box .fa{
+	margin-right: 8px;
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 50%;
+	background: #d5fefd;
+}
+.footer-box .form-control{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+	background: white;
+
+}
+.footer-box .btn-primary{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 0px;
+	color: #000;
+	background: #d5fefd;
+}
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
